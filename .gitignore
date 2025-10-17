@@ -8,3 +8,4 @@ __pycache__/
 venv/
 .ipynb_checkpoints/
 ```
+data/all_clients_test.csv
