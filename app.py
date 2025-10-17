@@ -64,7 +64,7 @@ except:
 @st.cache_data
 def load_test_data():
     try:
-        df = pd.read_csv("data/all_clients_test.csv")
+        df = pd.read_csv("data/all_clients_test_sample.csv")
         return df
     except:
         st.error("Erreur chargement données")
